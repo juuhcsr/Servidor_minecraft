@@ -5,11 +5,9 @@ Repositório com guia de como abrir um servidor de minecraft no google cloud
 
 Para criar uma vm com um servidor de minecraft a gente vai:
 
-- criar uma vm no google cloud
+- Criar uma vm no google cloud
 - Instalar o minecraft
-- criar a regra de firewall para o nosso servidor aceitar tráfego
-
-
+- Criar a regra de firewall para o nosso servidor aceitar tráfego
 
 ### Passo 1 - Criar uma VM
 
@@ -19,19 +17,19 @@ O primeiro passo é criar uma VM no Google Cloud. Certifique-se permitir o acess
 
 2. Clique em **Criar instância **
 
-3. Especifique as seguintes configurações e deixe o resto como padrão
+3. Especifique as seguintes configurações e deixe o resto como padrão:
 
 ![image](https://user-images.githubusercontent.com/110038530/230805247-4fa88b34-6045-42ad-a1c5-d99a304c57ea.png)
 
- Clique em Opções avançadas e vá em Rede e especifique essas configurações
+ Clique em Opções avançadas e vá em Rede e especifique essas configurações:
 
 ![image](https://user-images.githubusercontent.com/110038530/230805425-66bdad73-6994-48ae-8b2a-f79264b7c49c.png)
 
-clique em reservar e crie a máquina virtual
+Clique em reservar e crie a máquina virtual.
 
 ### Passo 2 - Configurações na Máquina virtual
 
-1. Entre na VM com SSH
+1. Entre na VM com SSH;
 
 Depois de criada a máquina virtual, clique em SSH para se conectar ao terminal da máquina
 
